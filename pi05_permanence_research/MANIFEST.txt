@@ -1,0 +1,63 @@
+π0.5 permanence research zip
+archive: pi05_permanence_research.zip
+
+KEEP these files. They are the paper: notebook, source, tests, figures, summary JSON.
+
+KEEP  source/controlled_contrasts.py  (60857 bytes)  experiment source
+KEEP  source/feature_count_sweep.py  (19295 bytes)  experiment source
+KEEP  source/token_position_patch.py  (17625 bytes)  experiment source
+KEEP  source/token_subspace.py  (17349 bytes)  experiment source
+KEEP  source/occlusion_features.py  (19816 bytes)  experiment source
+KEEP  source/paper_gaps.py  (34222 bytes)  experiment source
+KEEP  source/cover_autopsy.py  (13694 bytes)  experiment source
+KEEP  source/paper_claim.py  (42392 bytes)  experiment source
+KEEP  source/remaining_gaps.py  (35825 bytes)  experiment source
+KEEP  source/tight_cover.py  (25857 bytes)  experiment source
+KEEP  source/conclusion.py  (17405 bytes)  experiment source
+KEEP  source/occlusion_contrast.py  (49797 bytes)  experiment source
+KEEP  source/pack_research.py  (13438 bytes)  experiment source
+KEEP  README.md  (11012 bytes)  how to run the study
+KEEP  tests/test_conclusion.py  (3088 bytes)  unit test
+KEEP  tests/test_controlled_contrasts.py  (9039 bytes)  unit test
+KEEP  tests/test_cover_autopsy.py  (1424 bytes)  unit test
+KEEP  tests/test_feature_count_sweep.py  (3525 bytes)  unit test
+KEEP  tests/test_occlusion_contrast.py  (5368 bytes)  unit test
+KEEP  tests/test_occlusion_features.py  (3767 bytes)  unit test
+KEEP  tests/test_pack_research.py  (5254 bytes)  unit test
+KEEP  tests/test_paper_claim.py  (3053 bytes)  unit test
+KEEP  tests/test_paper_gaps.py  (1908 bytes)  unit test
+KEEP  tests/test_remaining_gaps.py  (3154 bytes)  unit test
+KEEP  tests/test_tight_cover.py  (2460 bytes)  unit test
+KEEP  tests/test_token_position_patch.py  (2834 bytes)  unit test
+KEEP  tests/test_token_subspace.py  (3019 bytes)  unit test
+KEEP  notebooks/final_smaj.ipynb  (556132 bytes)  Colab run notebook
+KEEP  notebooks/controlled_contrasts.ipynb  (80683 bytes)  experiment notebook
+KEEP  notebooks/feature_count_sweep.ipynb  (28042 bytes)  experiment notebook
+KEEP  notebooks/token_position_patch.ipynb  (26148 bytes)  experiment notebook
+KEEP  notebooks/token_subspace.ipynb  (25492 bytes)  experiment notebook
+
+SKIP these. They are runtime, public data, or secrets. Do not put them in a paper drop.
+
+SKIP  lerobot-venv/  runtime virtualenv
+SKIP  .venv/  runtime virtualenv
+SKIP  hf_home/  HuggingFace cache; Pi0.5 and PaliGemma stay on the Hub
+SKIP  huggingface/  HuggingFace cache
+SKIP  datasets--/  Hub snapshot; not a paper figure
+SKIP  .git/  version control internals
+SKIP  __pycache__/  bytecode
+SKIP  secrets/  tokens and keys
+SKIP  libero_hdf5/  public LIBERO demonstration archive
+SKIP  libero-assets/  public LIBERO assets
+SKIP  uploads/  scratch upload folder, not the paper drop
+SKIP  *.pt except transcoder.pt  policy weights stay on HuggingFace or Drive
+SKIP  *.npz  raw replay dumps
+SKIP  *.hdf5 *.tar  LIBERO archives
+
+How to read this zip
+- notebooks/ holds the Colab run, including names like 3final_smaj (1).ipynb.
+- source/ is the experiment code. tests/ checks the scoring rules without LIBERO.
+- results/permanence/*/summary.json and *.png are the numbers and figures.
+- results/occlusion_contrast/verdict.json is the separate action-expert check.
+- Pi0.5 weights: HuggingFace lerobot/pi05_libero_finetuned.
+- Demonstrations: HuggingFaceVLA/libero and the public LIBERO suite.
+

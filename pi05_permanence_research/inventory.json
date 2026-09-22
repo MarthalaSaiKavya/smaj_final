@@ -1,0 +1,261 @@
+{
+  "files": [
+    {
+      "path": "/workspace/controlled_contrasts.py",
+      "name": "controlled_contrasts.py",
+      "bytes": 60857,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/controlled_contrasts.py"
+    },
+    {
+      "path": "/workspace/feature_count_sweep.py",
+      "name": "feature_count_sweep.py",
+      "bytes": 19295,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/feature_count_sweep.py"
+    },
+    {
+      "path": "/workspace/token_position_patch.py",
+      "name": "token_position_patch.py",
+      "bytes": 17625,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/token_position_patch.py"
+    },
+    {
+      "path": "/workspace/token_subspace.py",
+      "name": "token_subspace.py",
+      "bytes": 17349,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/token_subspace.py"
+    },
+    {
+      "path": "/workspace/occlusion_features.py",
+      "name": "occlusion_features.py",
+      "bytes": 19816,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/occlusion_features.py"
+    },
+    {
+      "path": "/workspace/paper_gaps.py",
+      "name": "paper_gaps.py",
+      "bytes": 34222,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/paper_gaps.py"
+    },
+    {
+      "path": "/workspace/cover_autopsy.py",
+      "name": "cover_autopsy.py",
+      "bytes": 13694,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/cover_autopsy.py"
+    },
+    {
+      "path": "/workspace/paper_claim.py",
+      "name": "paper_claim.py",
+      "bytes": 42392,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/paper_claim.py"
+    },
+    {
+      "path": "/workspace/remaining_gaps.py",
+      "name": "remaining_gaps.py",
+      "bytes": 35825,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/remaining_gaps.py"
+    },
+    {
+      "path": "/workspace/tight_cover.py",
+      "name": "tight_cover.py",
+      "bytes": 25857,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/tight_cover.py"
+    },
+    {
+      "path": "/workspace/conclusion.py",
+      "name": "conclusion.py",
+      "bytes": 17405,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/conclusion.py"
+    },
+    {
+      "path": "/workspace/occlusion_contrast.py",
+      "name": "occlusion_contrast.py",
+      "bytes": 49797,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/occlusion_contrast.py"
+    },
+    {
+      "path": "/workspace/pack_research.py",
+      "name": "pack_research.py",
+      "bytes": 13438,
+      "decision": "keep",
+      "reason": "experiment source",
+      "zip_name": "source/pack_research.py"
+    },
+    {
+      "path": "/workspace/README.md",
+      "name": "README.md",
+      "bytes": 11012,
+      "decision": "keep",
+      "reason": "how to run the study",
+      "zip_name": "README.md"
+    },
+    {
+      "path": "/workspace/tests/test_conclusion.py",
+      "name": "test_conclusion.py",
+      "bytes": 3088,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_conclusion.py"
+    },
+    {
+      "path": "/workspace/tests/test_controlled_contrasts.py",
+      "name": "test_controlled_contrasts.py",
+      "bytes": 9039,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_controlled_contrasts.py"
+    },
+    {
+      "path": "/workspace/tests/test_cover_autopsy.py",
+      "name": "test_cover_autopsy.py",
+      "bytes": 1424,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_cover_autopsy.py"
+    },
+    {
+      "path": "/workspace/tests/test_feature_count_sweep.py",
+      "name": "test_feature_count_sweep.py",
+      "bytes": 3525,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_feature_count_sweep.py"
+    },
+    {
+      "path": "/workspace/tests/test_occlusion_contrast.py",
+      "name": "test_occlusion_contrast.py",
+      "bytes": 5368,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_occlusion_contrast.py"
+    },
+    {
+      "path": "/workspace/tests/test_occlusion_features.py",
+      "name": "test_occlusion_features.py",
+      "bytes": 3767,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_occlusion_features.py"
+    },
+    {
+      "path": "/workspace/tests/test_pack_research.py",
+      "name": "test_pack_research.py",
+      "bytes": 5254,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_pack_research.py"
+    },
+    {
+      "path": "/workspace/tests/test_paper_claim.py",
+      "name": "test_paper_claim.py",
+      "bytes": 3053,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_paper_claim.py"
+    },
+    {
+      "path": "/workspace/tests/test_paper_gaps.py",
+      "name": "test_paper_gaps.py",
+      "bytes": 1908,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_paper_gaps.py"
+    },
+    {
+      "path": "/workspace/tests/test_remaining_gaps.py",
+      "name": "test_remaining_gaps.py",
+      "bytes": 3154,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_remaining_gaps.py"
+    },
+    {
+      "path": "/workspace/tests/test_tight_cover.py",
+      "name": "test_tight_cover.py",
+      "bytes": 2460,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_tight_cover.py"
+    },
+    {
+      "path": "/workspace/tests/test_token_position_patch.py",
+      "name": "test_token_position_patch.py",
+      "bytes": 2834,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_token_position_patch.py"
+    },
+    {
+      "path": "/workspace/tests/test_token_subspace.py",
+      "name": "test_token_subspace.py",
+      "bytes": 3019,
+      "decision": "keep",
+      "reason": "unit test",
+      "zip_name": "tests/test_token_subspace.py"
+    },
+    {
+      "path": "/workspace/final_smaj.ipynb",
+      "name": "final_smaj.ipynb",
+      "bytes": 556132,
+      "decision": "keep",
+      "reason": "Colab run notebook",
+      "zip_name": "notebooks/final_smaj.ipynb"
+    },
+    {
+      "path": "/workspace/controlled_contrasts.ipynb",
+      "name": "controlled_contrasts.ipynb",
+      "bytes": 80683,
+      "decision": "keep",
+      "reason": "experiment notebook",
+      "zip_name": "notebooks/controlled_contrasts.ipynb"
+    },
+    {
+      "path": "/workspace/feature_count_sweep.ipynb",
+      "name": "feature_count_sweep.ipynb",
+      "bytes": 28042,
+      "decision": "keep",
+      "reason": "experiment notebook",
+      "zip_name": "notebooks/feature_count_sweep.ipynb"
+    },
+    {
+      "path": "/workspace/token_position_patch.ipynb",
+      "name": "token_position_patch.ipynb",
+      "bytes": 26148,
+      "decision": "keep",
+      "reason": "experiment notebook",
+      "zip_name": "notebooks/token_position_patch.ipynb"
+    },
+    {
+      "path": "/workspace/token_subspace.ipynb",
+      "name": "token_subspace.ipynb",
+      "bytes": 25492,
+      "decision": "keep",
+      "reason": "experiment notebook",
+      "zip_name": "notebooks/token_subspace.ipynb"
+    }
+  ],
+  "kept": 32
+}
